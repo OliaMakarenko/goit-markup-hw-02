@@ -1,0 +1,39 @@
+:root {
+/* fonts */
+--main-font: "Roboto";
+--secondary-font:  "Raleway";
+
+/* text colors */
+--main-text-color:  #212121;
+--secondary-text-color: #757575;
+--accent-text-color: #FFFFFF;
+}
+
+body {
+    font-family: var(--main-font), sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* common styles start */
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+/* header */
+.header-logo {
+    font-family: var(--secondary-font);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;    
+        color: #2196F3;
+}
+.logo {
+    color: #000000;;
+}
+
+/* common styles end */

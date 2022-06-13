@@ -5,36 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>goit-markup-hw-01</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom styles -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <!-- Section Header  -->
 
     <header class="header">
       <nav class="header-nav">
-        <a class="header-logo" lang="en" href="./index.html"
-          >Web <span>Studio</span></a
+        <a class="header-logo link" lang="en" href="./index.html"
+          >Web <span class="logo">Studio</span></a
         >
-        <ul class="header-list">
+        <ul class="list" class="header-list">
           <li class="header-list-item">
-            <a class="header-link" href="./index.html">Студия </a>
+            <a class="header-link link" href="./index.html">Студия </a>
           </li>
           <li class="header-list-item">
-            <a class="header-link" href="./portfolio.html">Портфолио</a>
+            <a class="header-link link" href="./portfolio.html">Портфолио</a>
           </li>
           <li class="header-list-item">
-            <a class="header-link" href="">Контакты</a>
+            <a class="header-link link" link href="">Контакты</a>
           </li>
         </ul>
       </nav>
-      <ul class="header-contacts">
+      <ul class="list" class="header-contacts">
         <li class="header-contacts-item">
-          <a class="header-contacts" href="mailto:info@devstudio.com"
+          <a class="header-contacts link" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
         <li class="header-group-item">
-          <a class="header-contacts" href="tel:+380961111111"
+          <a class="header-contacts link" href="tel:+380961111111"
             >+38 096 111 11 11</a
           >
         </li>
@@ -54,7 +65,7 @@
 
       <section class="features">
         <h2 hidden>Особенности</h2>
-        <ul>
+        <ul class="list">
           <li>
             <h3>Внимание к деталям</h3>
             <p>
@@ -90,7 +101,7 @@
 
       <section class="about">
         <h2>Чем мы занимаемся</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/boxes/box-1.jpg"
@@ -122,7 +133,7 @@
 
       <section>
         <h2>Наша команда</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/team/member-1.jpg"
@@ -170,11 +181,12 @@
     <!-- Section Footer -->
 
     <footer class="footer">
-      <a lang="en" href="./index.html">Web <span>Studio</span></a>
+      <a class="link" lang="en" href="./index.html">Web <span>Studio</span></a>
       <address>
-        <ul>
+        <ul class="list">
           <li>
             <a
+              class="link"
               href="https://goo.gl/maps/PPFv1zaZSDfDvedT9"
               target="_blank"
               rel="noopener noreferrer"
@@ -183,10 +195,12 @@
             >
           </li>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="tel:+380991111111">+38 099 111 11 11</a>
+            <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
           </li>
         </ul>
       </address>
